@@ -14,8 +14,8 @@ test.describe('Static Site Verification', () => {
   });
 
   test('About Page Check', async ({ page }) => {
-    await page.goto(`${BASE_URL}about/index.html`);
-    const heading = await page.locator('h1').first().textContent();
+    await page.goto(`${BASE_URL}#about`);
+    const heading = await page.locator('.about-title').first().textContent();
     expect(heading?.toLowerCase()).toContain('about us');
   });
 
