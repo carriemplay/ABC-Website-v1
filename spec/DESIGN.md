@@ -199,18 +199,19 @@ This document details the design elements and architectural requirements for the
 - **Header:** Integrated `.art-header` at the top of the card with a bottom border.
 - **Profile Image:** Increased vertical spacing (`4rem`) from the header.
 - **Buttons:**
-  - Priority Section: Contains primary call-to-action button ("join newsletter for upcoming events, giveaways, and creative burnout recovery tips") with Purple background (`var(--black)`).
-  - **Standard:** White background with black border.
+  - Priority Section: Contains single hero primary call-to-action button ("enter the junk journal kit giveaway") with Purple background (`var(--black)`).
+  - **Standard / Secondary:** White background with black border, emoji iconography for scannability, and structured grouping (`get involved` with interactive subline, `follow for updates` containing newsletter, website, and social links).
   - **Hover:** All buttons transition to Magenta (`var(--accent)`) background with a slight upward lift.
 - **Tracking:** Standard GA tag and specific UTM parameters for social links.
 
 ### 5.5 Privacy & Terms Page
 - **URL Path:** `/privacy-terms.html`.
-- **Content:** Combines standard privacy disclosures (PIPA/PIPEDA compliant) with comprehensive event terms:
+- **Content:** Combines standard privacy disclosures (PIPA/PIPEDA compliant), promotional contest rules, and comprehensive event terms:
   - **Liability Waiver & Media Release:** Covers sharp tools, minor supervision, liability release, and permission to showcase artwork for promotional purposes.
   - **Ticket Policy:** Strict no-refund policy with case-by-case event credit exceptions (6-month expiration, unredeemed credits donated back to the community).
   - **Code of Conduct:** Right of refusal and removal for unsafe, belligerent, or inappropriate behavior.
   - **General Policies:** Covers organizer cancellation (refund or credit), personal belongings, and venue-related allergies.
+  - **Master Promotional Contest & Giveaway Rules:** Evergreen legal framework covering Canadian contest requirements (skill-testing questions, point-of-entry retail value disclosures, Canadian eligibility excl. QC, 48-hour claim window, forfeiture/redraw rules, optional bonus newsletter entries, and survey data retention/anonymization after 6 months).
 - **Style:** Clean text layout with a back-link to home and a standard footer.
 
 ---
