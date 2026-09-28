@@ -199,7 +199,7 @@ This document details the design elements and architectural requirements for the
 - **Header:** Integrated `.art-header` at the top of the card with a bottom border.
 - **Profile Image:** Increased vertical spacing (`4rem`) from the header.
 - **Buttons:**
-  - Priority Section: Contains single hero primary call-to-action button ("enter the junk journal kit giveaway") with Purple background (`var(--black)`).
+  - Priority Section: Contains single hero primary call-to-action button ("🎨 vote on upcoming workshops (win a ticket!)") linking to active community survey/giveaway with Purple background (`var(--black)`).
   - **Standard / Secondary:** White background with black border, emoji iconography for scannability, and structured grouping (`get involved` with interactive subline, `follow for updates` containing newsletter, website, and social links).
   - **Hover:** All buttons transition to Magenta (`var(--accent)`) background with a slight upward lift.
 - **Tracking:** Standard GA tag and specific UTM parameters for social links.
